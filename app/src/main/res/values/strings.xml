@@ -13,4 +13,9 @@
     <string name="sayan">Sayan</string>
     <string name="mom">Mom</string>
     <string name="enter_your_message">Enter your message</string>
+    <string name="reload_this_page">Reload This Page</string>
+    <string name="oops_no_internet_connection_turn_on_internet">Oops!! No Internet Connection.Turn On Internet</string>
+    <string name="profile">Profile</string>
+    <string name="sign_in_to_save_your_preferences">Sign in to save your preferences</string>
+    <string name="share">Share</string>
 </resources>

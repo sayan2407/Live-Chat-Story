@@ -100,8 +100,6 @@ public class SavageMom extends Fragment {
                     reciver.add("");
                     myChat=new MyChat(getActivity(),sender,reciver);
                     listView.setAdapter(myChat);
-                    s.clear();
-                    r.clear();
                     text_msg.setText("");
                 }
                 else

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@color/green"
+    android:id="@+id/nointernet"
     android:layout_height="match_parent"
     tools:context=".NoInternet">
 
@@ -20,14 +21,14 @@
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"
         android:layout_margin="15sp"
-        android:text="Oops!! No Internet Connection.Turn On Internet"
+        android:text="@string/oops_no_internet_connection_turn_on_internet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/b1"
         android:layout_below="@+id/t1"
         android:background="@color/c1"
-        android:text="Go To Chat"
+        android:text="@string/reload_this_page"
         android:padding="10sp"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"

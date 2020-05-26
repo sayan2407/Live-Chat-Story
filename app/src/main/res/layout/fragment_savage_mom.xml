@@ -73,6 +73,7 @@
             android:layout_height="match_parent">
     <ListView
         android:id="@+id/list_view"
+        android:scrollbars="none"
         android:transcriptMode="normal"
         android:dividerHeight="0sp"
         android:divider="@android:color/transparent"

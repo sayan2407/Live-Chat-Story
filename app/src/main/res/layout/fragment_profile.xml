@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:drawablePadding="5dp"
                 android:textSize="16sp"
-                android:text="Profile"
+                android:text="@string/profile"
                 android:textStyle="bold" />
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
@@ -50,7 +50,7 @@
         android:textStyle="bold"
         android:layout_marginTop="20sp"
         android:layout_centerHorizontal="true"
-        android:text="Sign in to save your preferences"
+        android:text="@string/sign_in_to_save_your_preferences"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
@@ -64,6 +64,7 @@
         android:layout_width="200sp"
         android:layout_height="wrap_content"/>
     <Button
+        android:id="@+id/b2"
         android:layout_alignParentBottom="true"
         android:layout_width="150sp"
         android:text="@string/rate_us"
@@ -72,11 +73,12 @@
         android:background="@color/black"
         android:layout_height="wrap_content"/>
     <Button
+        android:id="@+id/b3"
         android:layout_alignParentRight="true"
         android:layout_margin="10sp"
         android:layout_alignParentBottom="true"
         android:layout_width="150sp"
-        android:text="Share"
+        android:text="@string/share"
         android:textColor="@color/white"
         android:background="@color/black"
         android:layout_height="wrap_content"/>

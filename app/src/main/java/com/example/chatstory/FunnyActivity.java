@@ -15,6 +15,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class FunnyActivity extends AppCompatActivity {
     ListView listView;
@@ -43,6 +44,10 @@ public class FunnyActivity extends AppCompatActivity {
                         Intent i=new Intent(getApplicationContext(),StoryActivity.class);
                         i.putExtras(bundle);
                         startActivity(i);
+                        break;
+                    case 1:
+                        Toast.makeText(FunnyActivity.this, "Under Development,Click on The Savage Mom", Toast.LENGTH_SHORT).show();
+                        break;
                 }
             }
         });
